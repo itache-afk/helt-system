@@ -1,0 +1,29 @@
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  age INTEGER,
+  sex VARCHAR(50),
+  email VARCHAR(100) UNIQUE NOT NULL,
+  password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE medicine (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  medical_name VARCHAR(50),
+  price NUMERIC(10,2),
+  dosage VARCHAR(50)
+);
+
+CREATE TABLE illness (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  severe_level VARCHAR(50),
+  medicine_id INTEGER REFERENCES medicine(id) ON DELETE SET NULL
+);
+
+CREATE TABLE user_illness (
+  id SERIAL PRIMARY KEY,
+  user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  illness_id INTEGER NOT NULL REFERENCES illness(id) ON DELETE CASCADE
+);

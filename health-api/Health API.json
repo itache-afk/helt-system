@@ -1,0 +1,566 @@
+{
+  "v": 12,
+  "id": "coll_mves4hwu_d0a570bf-7412-4fb4-a021-541b60591919",
+  "name": "Health API",
+  "folders": [
+    {
+      "v": 12,
+      "id": "coll_mvesqccj_77a0b63e-1d02-4ea2-9410-1187886883cf",
+      "name": "Medicine",
+      "folders": [],
+      "requests": [
+        {
+          "v": "17",
+          "id": "16c1144c-39c0-45c3-8fd9-59c249cc7ca8",
+          "name": "Create",
+          "method": "POST",
+          "endpoint": "<<baseUrl>>/medicine",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "e2dd91b7-7985-49ae-89e5-8b64662ba025",
+          "name": "Get all",
+          "method": "GET",
+          "endpoint": "<<baseUrl>>/medicine",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "e1c14a75-cbbf-4d31-b5ee-5527f5a2743b",
+          "name": "Get one",
+          "method": "GET",
+          "endpoint": "<<baseUrl>>/medicine/1",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "1c570aaf-c49e-4bb9-8dcd-ccee2923b809",
+          "name": "Update",
+          "method": "PUT",
+          "endpoint": "<<baseUrl>>/medicine/1",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "1bbd9c06-6fdc-4589-9be1-d6b03ee2eb30",
+          "name": "Delete",
+          "method": "DELETE",
+          "endpoint": "<<baseUrl>>/medicine/1",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        }
+      ],
+      "description": null,
+      "auth": {
+        "authType": "inherit",
+        "authActive": false,
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJoYXJyeUB0ZXN0LmNvbSIsImlhdCI6MTc5MjM4OTQxMSwiZXhwIjoxNzkyNDc1ODExfQ.3QnRJqoBScDH3aPIDdHRQvtLqcJrXJeuZ520E93F37I"
+      },
+      "headers": [],
+      "variables": [],
+      "preRequestScript": "",
+      "testScript": ""
+    },
+    {
+      "v": 12,
+      "id": "coll_mvesqkv9_1ea8cb56-ea8f-4e1a-a9c3-adba04ec2f9f",
+      "name": "Illness",
+      "folders": [],
+      "requests": [
+        {
+          "v": "17",
+          "id": "2017ad02-8ee7-4c3c-a089-8d3cf722be90",
+          "name": "Create",
+          "method": "POST",
+          "endpoint": "<<baseUrl>>/illness",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{ \"name\": \"Fever\", \"severe_level\": \"Mild\", \"medicine_id\": 1 }"
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "110b175e-e600-450d-9b30-eb7f9a0a0878",
+          "name": "Get all",
+          "method": "GET",
+          "endpoint": "<<baseUrl>>/illness",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "d87c9df9-bdeb-4352-8466-f0de8a41b296",
+          "name": "Get one",
+          "method": "GET",
+          "endpoint": "<<baseUrl>>/illness/1",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "5caf4309-ef54-422d-8725-e82fbef94286",
+          "name": "Update",
+          "method": "PUT",
+          "endpoint": "<<baseUrl>>/illness/1",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{ \"name\": \"Fever\", \"severe_level\": \"Moderate\", \"medicine_id\": 1 }"
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "1e3ddbf6-6115-4d95-9ada-5d8edf777c52",
+          "name": "Delete",
+          "method": "DELETE",
+          "endpoint": "<<baseUrl>>/illness/1",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        }
+      ],
+      "description": null,
+      "auth": {
+        "authType": "inherit",
+        "authActive": false
+      },
+      "headers": [],
+      "variables": [],
+      "preRequestScript": "",
+      "testScript": ""
+    },
+    {
+      "v": 12,
+      "id": "coll_mvesquy6_11049609-6263-4439-8d29-c9f2f2172332",
+      "name": "Users",
+      "folders": [],
+      "requests": [
+        {
+          "v": "17",
+          "id": "7044fc90-3f13-4e96-9fe0-f87815272cf0",
+          "name": "Get all",
+          "method": "GET",
+          "endpoint": "<<baseUrl>>/users",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "f136852f-3141-4334-bec4-b5326aef25d1",
+          "name": "Get one",
+          "method": "GET",
+          "endpoint": "\t<<baseUrl>>/users/1",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "78eda9d9-642b-4bae-a070-f70fe2752e0a",
+          "name": "Update",
+          "method": "PUT",
+          "endpoint": "<<baseUrl>>/users/1",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{ \"name\": \"Harry Updated\", \"age\": 22, \"sex\": \"Male\" }"
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "7f2f3e33-cf26-4767-8a0d-cdf01a9a8ea4",
+          "name": "Delete",
+          "method": "DELETE",
+          "endpoint": "<<baseUrl>>/users/1",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        }
+      ],
+      "description": null,
+      "auth": {
+        "authType": "inherit",
+        "authActive": false
+      },
+      "headers": [],
+      "variables": [],
+      "preRequestScript": "",
+      "testScript": ""
+    },
+    {
+      "v": 12,
+      "id": "coll_mvesr1cf_17f3e6bc-78b0-4fd5-a570-27a6695ee309",
+      "name": "User-Illness",
+      "folders": [],
+      "requests": [
+        {
+          "v": "17",
+          "id": "1b89e079-1873-44d3-9b33-82bc4bba4409",
+          "name": "Create",
+          "method": "POST",
+          "endpoint": "\t<<baseUrl>>/user-illness",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{ \"user_id\": 1, \"illness_id\": 1 }"
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "d39098fb-a719-4663-9229-194d2ffd4d2f",
+          "name": "Get all",
+          "method": "GET",
+          "endpoint": "<<baseUrl>>/user-illness",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "192dc240-f7de-431c-ac3a-875cbcac0890",
+          "name": "Get one",
+          "method": "GET",
+          "endpoint": "<<baseUrl>>/user-illness/1",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "01f6d7e2-dbfb-4b0d-a6d0-5e65e59d0c87",
+          "name": "Update",
+          "method": "PUT",
+          "endpoint": "<<baseUrl>>/user-illness/1",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{ \"user_id\": 1, \"illness_id\": 1 }"
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "d35e4c3c-fe1a-4386-8e27-8ff1eb0c479a",
+          "name": "Delete",
+          "method": "DELETE",
+          "endpoint": "<<baseUrl>>/user-illness/1",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        }
+      ],
+      "description": null,
+      "auth": {
+        "authType": "none",
+        "authActive": false
+      },
+      "headers": [],
+      "variables": [],
+      "preRequestScript": "",
+      "testScript": ""
+    },
+    {
+      "v": 12,
+      "id": "coll_mveth09u_73575917-9ed1-4d1b-ad51-f535e01df942",
+      "name": "Auth",
+      "folders": [],
+      "requests": [
+        {
+          "v": "17",
+          "id": "4a361dea-3ff5-411b-8987-570605444b00",
+          "name": "Register",
+          "method": "POST",
+          "endpoint": "<<baseUrl>>/auth/register",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\"name\":\"Harry\",\"age\":21,\"sex\":\"Male\",\"email\":\"harry@test.com\",\"password\":\"pass1234\"}"
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        },
+        {
+          "v": "17",
+          "id": "0f0b1e50-04fb-43c8-87fe-9e8d5839fe8e",
+          "name": "Login",
+          "method": "POST",
+          "endpoint": "<<baseUrl>>/auth/login",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "pw.env.set(\"token\", pw.response.body.token);",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "  {\"email\":\"harry@test.com\",\"password\":\"pass1234\"}"
+          },
+          "requestVariables": [],
+          "responses": {},
+          "description": null
+        }
+      ],
+      "description": null,
+      "auth": {
+        "authType": "inherit",
+        "authActive": false
+      },
+      "headers": [],
+      "variables": [],
+      "preRequestScript": "",
+      "testScript": ""
+    }
+  ],
+  "requests": [],
+  "description": "",
+  "auth": {
+    "authType": "bearer",
+    "authActive": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJoYXJyeUB0ZXN0LmNvbSIsImlhdCI6MTc5MjM4ODg4MiwiZXhwIjoxNzkyNDc1MjgyfQ.Xly4sz0mnU-8hQH_EIucpgN6odF8ux9X7cmabvSWYcs"
+  },
+  "headers": [],
+  "variables": [],
+  "preRequestScript": "",
+  "testScript": ""
+}
